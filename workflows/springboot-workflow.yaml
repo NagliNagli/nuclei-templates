@@ -11,7 +11,7 @@ info:
 
 workflows:
 
-  - template: technologies/detect-springboot-actuator.yaml
+  - template: technologies/detect-springboot-actuator.yaml # We need to change this
     subtemplates:
       - template: misconfiguration/springboot/springboot-configprops.yaml
       - template: misconfiguration/springboot/springboot-env.yaml
